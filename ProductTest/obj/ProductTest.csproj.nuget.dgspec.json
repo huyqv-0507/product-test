@@ -60,7 +60,7 @@
               "target": "Package",
               "version": "[3.0.0, )"
             },
-            "Microsoft.NET.Test.Sdk": {
+            "Microsoft.TestPlatform.TestHost": {
               "target": "Package",
               "version": "[16.6.1, )"
             },
