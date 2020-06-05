@@ -18,9 +18,9 @@ namespace ProductTest.Controllers
         [HttpGet]
         public IActionResult getCategories()
         {
-            var categories = dbContext.Categories.ToList();
-            if (categories == null) return NotFound();
-            return Ok(categories);
+            //var categories = dbContext.Categories.ToList();
+            //if (categories == null) return NotFound();
+            return Ok("ok");
         }
 
         //GET api/v3/categories/categoryId
